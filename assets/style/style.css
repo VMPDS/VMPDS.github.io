@@ -1,0 +1,215 @@
+.header h1 {
+    font-size: 24px;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    margin: auto;
+    line-height: 58px;
+    text-align: center;
+} 
+.menu {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 75px;
+    height: 100%;
+    display: block;
+}
+.menu.active {
+    width: 215px;
+}
+.area-lyric.active {
+    width: calc(100vw - 215px);
+}
+.icon-menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+.icon-menu:hover {
+    background-color: #c97e1d;
+    transition: background-color .1s;
+}
+.icon-menu p {
+    margin: 2px 0 0 0;
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+.icon-menu.active {
+    display: flex;
+    width: 200px;
+    height: 45px;
+    padding: 0 17.5px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.icon-menu.active p {
+    margin: 0 0 0 25px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 45px;
+}
+.icon-menu img {
+    width: 25px;
+    height: 25px;
+}
+.menu input {
+    display: none;
+}
+.menu input:checked + label {
+    background-color: #c97e1d;
+}
+.list-menu {
+    padding: 0;
+    margin: 0;
+}
+.list-menu li {
+    font-family: 'Assistant', sans-serif;
+    font-weight: bold;
+    padding: 0 10px;
+}
+.list-menu li:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+li a {
+    display: block;
+    padding: 6px 5px 6px 12px;
+}
+.area-lyric h1 {
+    display: flex;
+    font-family: 'Assistant', sans-serif;
+    margin: 0 0 10px;
+    font-size: 2rem;
+    line-height: 45px;
+}
+#lastListMenu {
+    padding: 6px 5px 8px 12px;
+}
+.container.active {
+    position: fixed;
+}
+.iframe-youtube {
+    position: relative;
+    width: 100%;
+}
+.iframe-youtube::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+.iframe-youtube iframe {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 70%;
+    border-radius: 16px;
+}
+.area-lyric h2 {
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.area-music {
+    display: flex;
+    flex-direction: column;
+}
+.area-profile {
+    display: flex;
+    flex-direction: column;
+}
+.area-lyric .text-profile {
+    margin: 0 0 40px 20px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1rem;
+}
+.language {
+    display: flex;
+    flex-direction: row;
+}
+.language #original-button {
+    margin: 0 0 20px 12px;
+}
+.language input {
+    display: none;
+}
+.language input:checked + label {
+    box-shadow: 0 0 0px 2px #ffffff,
+    0 0 0px 4px #000000;
+}
+.language label {
+    display: flex;
+    font-family: 'Assistant', sans-serif;
+    flex-direction: row;
+    margin: 0 0 20px 45px;
+    font-size: 1.2rem;
+    padding: 0 3px;
+    background-color: rgb(105, 105, 247);
+    border-radius: 4px;
+    color: rgb(252, 253, 253);
+    height: 40px;
+    width: 85px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .1s;
+}
+.top-page.visible {
+    bottom: 16px;
+    visibility: visible;
+}
+
+.area-newpaper {
+    display: none;
+    flex-direction: column;
+}
+.area-newpaper.active {
+    display: flex;
+}
+.area-newpaper .area-h1 h1 {
+    font-size: 3rem;
+    margin: 0 0 20px 0;
+}
+.area-newpaper .lyric {
+    text-align: center;
+}
+ 
+.area-home {
+    display: none;
+    flex-direction: column;
+}
+.area-home.active {
+    display: flex;
+}
+
+.area-event {
+    display: none;
+    flex-direction: column;
+}
+.area-event.active {
+    display: flex;
+}
+.area-event .area-h1 h1 {
+    font-size: 3rem;
+    margin: 0 0 10px 0;
+}
+.images-event img {
+    margin: 10px 0 0 0;
+}

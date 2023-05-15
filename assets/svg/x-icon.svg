@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width='20px' height='20px' id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86.57 86.57">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #000000;
+        stroke: #000000;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="3.54" y1="3.54" x2="83.04" y2="83.04"/>
+  <line class="cls-1" x1="3.54" y1="83.04" x2="83.04" y2="3.54"/> 
+</svg>

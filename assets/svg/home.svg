@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" id="home-icon" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 134.47">
+  <defs>
+    <style>
+      .home-icon {
+        fill: none;
+        stroke: #f0f8fe;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <polygon class="home-icon" points="5 47.47 5 129.47 45 129.47 45 96.47 65 96.47 65 129.47 105 129.47 105 47.47 55 6.47 5 47.47"/>
+</svg>
